@@ -9,20 +9,9 @@
       "serviceUrl": "https://open-vsx.org/vscode/gallery",
       "itemUrl": "https://open-vsx.org/vscode/item",
       "resourceUrlTemplate": "https://open-vsx.org/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}"
-    },
-    "extensionEnabledApiProposals": {
-      "vscode.vscode-web-playground": [
-        "fileSearchProvider",
-        "textSearchProvider"
-      ]
     }
   },
-  
   "additionalBuiltinExtensions": [
-    {
-      "scheme": "http",
-      "path": "/fs/mntanura.app/myExt"
-    },
     {
       "scheme": "http",
       "path": "/fs/mntanura.app/myDav"
